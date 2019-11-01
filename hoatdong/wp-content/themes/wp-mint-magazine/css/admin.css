@@ -1,0 +1,27 @@
+#available-widgets [class*=wp_mint_magazine_advart_banner_widget] .widget-title:before{
+    content: "\f242";
+}
+#available-widgets [class*=post_grid_layout_style] .widget-title:before{
+    content: "\f180";
+}
+
+.post-grid-layout-wrap{position: relative; max-width: 260px;}
+.customize-control .post-grid-layout-wrap{padding: 15px 0;}
+.widget-form-label{font-weight: 600; font-size: 14px; position: relative; margin-bottom: 5px; display: block;}
+.widget-form-label.label-inline{display: inline-block;}
+.post-grid-layout-view{position: relative; text-align: left; margin-bottom: 15px;}
+.post-grid-layout-view img{width: 100%; height: auto;}
+.widget-form-group{position: relative; margin-bottom: 15px;}
+.post-grid-layout-wrap input, .post-grid-layout-wrap select, .post-grid-layout-wrap textarea{
+
+}
+.post-grid-layout-wrap input[type="text"], .post-grid-layout-wrap select, .post-grid-layout-wrap textarea{width: 100%; display: block;}
+
+.widget-grid-title-img-wrap{position: relative; display: block; }
+.widget-grid-title-img-box{position: relative; display: block; margin:0px 0 5px; height: auto;}
+
+.button.upload_image_button,
+.button.remove_image_button{
+    display: inline;
+    margin-top:6px;
+}
